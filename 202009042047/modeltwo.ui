@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>848</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>华北电力大学CS学科ESI查询系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Desktop/华电.jpg</normaloff>../../Desktop/华电.jpg</iconset>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>834</width>
+         <height>325</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="2" column="6" colspan="3">
+         <widget class="QLineEdit" name="yend"/>
+        </item>
+        <item row="6" column="3">
+         <widget class="QRadioButton" name="radioButton_3">
+          <property name="text">
+           <string>线程3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="2">
+         <widget class="QPushButton" name="vpn_password">
+          <property name="text">
+           <string>计算被引频次</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="4" colspan="3">
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="text">
+           <string>线程2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="6" colspan="3">
+         <widget class="QLineEdit" name="iu"/>
+        </item>
+        <item row="2" column="3" colspan="3">
+         <widget class="QLabel" name="label_yeare">
+          <property name="text">
+           <string>year_end(eg.2009)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0" colspan="2">
+         <widget class="QPushButton" name="Button_export">
+          <property name="text">
+           <string>导出初始表</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0" colspan="9">
+         <widget class="QTextBrowser" name="textBrowser">
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOn</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOn</enum>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:7pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'SimSun';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLineEdit" name="vu"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="vpn_username">
+          <property name="text">
+           <string>vpn_username</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0" colspan="2">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>截止日期（eg.20200430）</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QRadioButton" name="radioButton">
+          <property name="text">
+           <string>线程1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLineEdit" name="vp">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLineEdit" name="ystart"/>
+        </item>
+        <item row="1" column="3" colspan="2">
+         <widget class="QLabel" name="label_incitep">
+          <property name="text">
+           <string>incite_password</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3" colspan="2">
+         <widget class="QLabel" name="label_inciteu">
+          <property name="text">
+           <string>incite_username</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="6" colspan="3">
+         <widget class="QLineEdit" name="ip">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QLabel" name="label_years">
+          <property name="text">
+           <string>year_start(eg.1999)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_vpnp">
+          <property name="text">
+           <string>vpn_password</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QLineEdit" name="ddl"/>
+        </item>
+        <item row="6" column="4">
+         <widget class="QRadioButton" name="radioButton_4">
+          <property name="text">
+           <string>线程4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="3">
+         <widget class="QPushButton" name="Button_3">
+          <property name="text">
+           <string>计算接近度</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="4">
+         <widget class="QPushButton" name="graph1">
+          <property name="text">
+           <string>折线图</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="6">
+         <widget class="QPushButton" name="graph2">
+          <property name="text">
+           <string>对比图</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>848</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>vpn_password</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>frequency_test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>324</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>graph1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>graph_columnar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>graph2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>graph_polyline()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>721</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>364</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_export</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>export_test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>export_test()</slot>
+  <slot>graph_polyline()</slot>
+  <slot>graph_columnar()</slot>
+  <slot>frequency_test()</slot>
+ </slots>
+</ui>
